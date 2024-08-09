@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+   font-size: 15px;
+   width: 40%;
+   padding: 9px;
+   margin: 8px;
+   border: 2px solid gainsboro;
+   border-radius: 15px;
+}
+.btn{
+    margin: 10px;
+    font-size: large;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+    
+}
