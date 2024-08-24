@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(61, 210, 244);
+}
+.container h1{
+    text-align: center;
+    margin: 12px 0;
+    background-color: rgb(159, 69, 242);
+    border-radius: 19px;
+}
+.content{
+    margin: 12px 9px;
+    padding: 46px;
+    max-width: 80%;
+    align-items: center;
+    background-color: rgb(244, 188, 116);
+    height: 100vh;
+    margin-left: 130px;
+    align-items: center;
+    border-radius: 22px;
+    justify-content: center;
+}
+h3{
+    margin: 9px;
+    text-align: center;
+}

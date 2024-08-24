@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title DanceFusion Academy
+    link(rel="stylesheet", href="/static/style.css")
+  body
+    nav#navbar
+      ul
+        div#log
+          img(src="/static/img/logo.jpg", alt="logo")
+       //- | DFA    
+        li
+          a(href="/") Home
+        li
+          a(href="/") About
+        li
+          a(href="/services") Services
+        li
+          a(href="/") Class Info
+        li
+          a(href="/") Contact
+
+    section#introsection
+      | Welcome to DanceFusion Academy
+      div Eat Sleep Dance Repeat
+
+    section#Missionsection
+      h2 Our Mission
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/img/1.png", alt="Dance Perfection")
+          div.card-content
+            p Every day brings a chance for you to draw in a breath, kick off your shoes, and dance.
+      div.card
+        h3 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="/static/img/2.webp", alt="Dance the way you like")
+          div.card-content
+            p I do not try to dance better than anyone else. I only try to dance better than myself.
+      div.card
+        h3 Expert teaching
+        div.card-box
+          div.card-img
+            img(src="/static/img/1.png", alt="Expert teaching")
+          div.card-content
+            p Dance is a language beyond words, expressing that for which we have no words.
+
+    section#sponsorsection
+      h2 Our Sponsors
+      div#sponsors
+        img(src="/static/img/sp1.jpg", alt="Sponsor 1", class="spImage")
+        img(src="/static/img/sp2.jpeg", alt="Sponsor 2", class="spImage")
+        img(src="/static/img/sp3.webp", alt="Sponsor 3", class="spImage")
+        img(src="/static/img/sp4.png", alt="Sponsor 4", class="spImage")
+
+    footer#footer
+      | Copyright &copy; 2024 DanceFusionAcademy.com | All rights reserved | Md Faizan Ahmad  
+               
+    script(src="/static/index.js")

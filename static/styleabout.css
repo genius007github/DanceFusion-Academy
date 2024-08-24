@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+background: rgb(61, 210, 244);
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.container{
+    margin: 12px auto;
+    padding: 46px;
+    max-width: 80%;
+    background-color: antiquewhite;
+    height: 80vh;
+    border-radius: 22px;
+}
+p{
+    border: 4px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 15px;
+    border-radius: 12px;
+    text-wrap: 2;
+   box-shadow: inset;
+}

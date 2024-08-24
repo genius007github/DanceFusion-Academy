@@ -7,7 +7,7 @@ h1{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    background-color: rgb(189, 242, 84);
 }
 .myForm{
     display: flex;
@@ -24,6 +24,17 @@ h1{
    border: 2px solid gainsboro;
    border-radius: 15px;
 }
+/* Style for the "desc" input field */
+.myInput[name="desc"] {
+    height: 100px;  
+    width: 40%;
+   padding: 9px;
+   margin: 8px;
+   border: 2px solid gainsboro;
+   border-radius: 15px;  
+   
+}
+
 .btn{
     margin: 10px;
     font-size: large;
